@@ -1,0 +1,50 @@
+{
+  "name": "learning-webpack",
+  "version": "1.0.0",
+  "description": "learning webpack 3.0+ ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --env=dev",
+    "build": "webpack --env=prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koflist/learningWebpack.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "KOFer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/koflist/learningWebpack/issues"
+  },
+  "homepage": "https://github.com/koflist/learningWebpack#readme",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.2",
+    "babel-preset-es2015": "6.24.1",
+    "clean-webpack-plugin": "0.1.18",
+    "css-loader": "0.28.9",
+    "file-loader": "1.1.6",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "2.30.1",
+    "mockjs": "1.0.1-beta3",
+    "pug": "2.0.0-rc.4",
+    "pug-loader": "2.3.0",
+    "style-loader": "0.20.2",
+    "stylus": "^0.54.5",
+    "stylus-loader": "3.0.1",
+    "vue-loader": "14.1.1",
+    "vue-template-compiler": "2.5.13",
+    "webpack": "3.11.0",
+    "webpack-dev-server": "2.11.1",
+    "webpack-merge": "4.1.1"
+  },
+  "dependencies": {
+    "axios": "0.17.1",
+    "element-ui": "2.2.0",
+    "vue": "2.5.13",
+    "vue-router": "3.0.1"
+  }
+}
